@@ -1,0 +1,26 @@
+- 打包docker image
+  - docker build -t fastapi:v1 -f ./Dockerfile .
+- 啟動 docker container
+  - docker run -itd -p 8000:8000 --name fastapi fastapi:v1 
+- 查看 docker image 列表
+  - docker image ls
+- 查看 docker container啟動狀況
+  - docker ps -a
+- 查看 docker container log資訊
+  - docker logs container_name
+
+- docker compose打包image
+  - docker compose build
+- docker compose啟動全部service
+  - docker compose up -d
+- docker compose關閉全部service
+  - docker compose down
+- docker compose 查看service執行狀況
+  - docker compose ps -a
+- docker compose 查看log資訊
+  - docker compose logs service_name
+
+- volume查看
+  - docker volume ls
+- volume刪除
+  - docker volume rm vol_name
