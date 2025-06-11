@@ -1,3 +1,12 @@
+## Referenc
+- [Docker五部曲之一：容器术语介绍](https://blog.csdn.net/qq_45295475/article/details/135426978)
+- [Docker五部曲之二：Docker引擎](https://blog.csdn.net/qq_45295475/article/details/135434809)
+- [Docker五部曲之三：镜像构建](https://blog.csdn.net/qq_45295475/article/details/135434814)
+- [Docker五部曲之四：Docker Compose](https://blog.csdn.net/qq_45295475/article/details/135434820)
+- [Docker五部曲之五：通过Docker和GitHub Action搭建个人CICD项目](https://blog.csdn.net/qq_45295475/article/details/135611462)
+- [Docker 教程](https://www.runoob.com/docker/docker-tutorial.html)
+
+## 指令參考
 - 打包docker image
   - docker build -t fastapi:v1 -f ./Dockerfile .
 - 啟動 docker container
