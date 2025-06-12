@@ -6,7 +6,7 @@
 - [Docker五部曲之五：通过Docker和GitHub Action搭建个人CICD项目](https://blog.csdn.net/qq_45295475/article/details/135611462)
 - [Docker 教程](https://www.runoob.com/docker/docker-tutorial.html)
 
-## 指令參考
+## docker 指令參考
 - 打包docker image
   - docker build -t fastapi:v1 -f ./Dockerfile .
 - 啟動 docker container
@@ -17,7 +17,14 @@
   - docker ps -a
 - 查看 docker container log資訊
   - docker logs container_name
+- 進入 docker 終端機的指令
+  - docker exec -it container_name /bin/bash
+- 暫停 container
+  - docker stop container_name
+- 啟動 container
+  - docker start container_name
 
+## docker compose 指令參考
 - docker compose打包image
   - docker compose build
 - docker compose啟動全部service
